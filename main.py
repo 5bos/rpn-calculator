@@ -4,7 +4,7 @@ from fastapi import Depends, FastAPI, HTTPException, Query, status
 from sqlalchemy import JSON, Column
 from sqlmodel import Field, Session, SQLModel, create_engine, select
 
-from operand_utils import OPERANDS_MAPPING, OperandException
+from utils.operand_utils import OPERANDS_MAPPING, OperandException
 from db.stack import Stack, Item
 
 sqlite_file_name = "database.db"

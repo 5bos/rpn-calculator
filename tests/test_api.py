@@ -2,7 +2,7 @@ from fastapi.testclient import TestClient
 from sqlmodel import Field, Session, SQLModel, create_engine, select
 from sqlmodel import Session
 from db.stack import Stack
-from operand_utils import OPERANDS_MAPPING
+from utils.operand_utils import OPERANDS_MAPPING
 
 
 class TestRpnCalculator:

@@ -35,6 +35,14 @@ You can now access the sever on the address http://127.0.0.1:8000
 
 You can also access the swagger on the adress http://127.0.0.1:8000/docs
 
+### Populate random data
+
+You can populate a random set of test data by running the `generate_stacks.py` file
+
+```shell
+python generate_stacks.py
+```
+
 ## Run the tests
 
 To run the test within the virtualenv, simply run the command
