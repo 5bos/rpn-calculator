@@ -1,0 +1,10 @@
+[project]
+name = "rpn_calculator_cacib"
+version = "0.0.1"
+description = "Backend API for RPN calculator"
+requires-python=">=3.10,<3.11"
+dependencies = [
+  "sqlmodel==0.0.24",
+  "fastapi[standard]",
+  "pytest"
+]
